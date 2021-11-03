@@ -1,0 +1,44 @@
+.header {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.header .menu {
+  height: 150px;
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .menu .dropdown-items {
+  position: absolute;
+  margin-top: 140px;
+  padding: 3px;
+  background: #D7B399;
+  color: white;
+  border-radius: 10px;
+}
+.header .menu .dropdown-items .dropdown-item {
+  padding: 3px;
+  margin: 2px;
+  list-style-type: none;
+}
+.header .menu .menu-basket-logo {
+  width: 30px;
+  height: 30px;
+}
+.header .menu .menu-basket-counter {
+  width: 50px;
+  height: 20px;
+}
+.header .menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header .menu-item__selected {
+  background: #D7B399;
+}

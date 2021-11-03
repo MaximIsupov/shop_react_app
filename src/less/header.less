@@ -1,0 +1,44 @@
+.header{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    .menu{
+        height:150px;
+        max-width:60%;
+        margin:0 auto;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        .dropdown-items{
+            position:absolute;
+            margin-top:140px;
+            padding:3px;
+            background:#D7B399;
+            color:white;
+            border-radius:10px;
+            .dropdown-item{
+                padding:3px;
+                margin:2px;
+                list-style-type: none;
+            }
+        }
+        .menu-basket-logo{
+            width:30px;
+            height:30px;
+        }
+        .menu-basket-counter{
+            width:50px;
+            height:20px;
+        }
+        &-item{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            &__selected{
+                background: #D7B399;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.collections {
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.collections .collection {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.collections .collection-title {
+  margin-top: 60px;
+  font-size: 24px;
+  line-height: 29px;
+}
+.collections .collection-description {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.collections .collection .button {
+  margin-top: 40px;
+}
+.collections .collection img {
+  margin-top: 79px;
+}
