@@ -25,3 +25,17 @@
 .collections .collection img {
   margin-top: 79px;
 }
+.categories {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.categories .categorie {
+  width: 25%;
+}
+.categories .categorie-title {
+  position: absolute;
+  margin-top: -10px;
+}

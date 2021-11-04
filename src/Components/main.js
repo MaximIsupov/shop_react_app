@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './header/header';
 import Slider from './slider/slider';
 import Shipment from './shipment';
-import Collections from './collections';
+import Collections from './collections/collections';
 import GetSales from './get_sales';
 
 class Main extends React.Component {
